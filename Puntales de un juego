@@ -1,0 +1,9 @@
+ALGORITMO Puntaje_Total
+    Definir monedas, niveles, puntaje Como Entero
+    Escribir "Ingrese el número de monedas:"
+    Leer monedas
+    Escribir "Ingrese los niveles superados:"
+    Leer niveles
+    puntaje <- (monedas * 100) + (niveles * 500)
+    Escribir "El puntaje total es:", puntaje
+FIN ALGORITMO
