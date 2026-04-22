@@ -1,0 +1,7 @@
+ALGORITMO Descuento_Compra
+    Definir valor_compra, total_pagar Como Real
+    Escribir "Ingrese el valor de la compra:"
+    Leer valor_compra
+    total_pagar <- valor_compra - 10000
+    Escribir "El total a pagar con descuento es:", total_pagar
+FIN ALGORITMO
