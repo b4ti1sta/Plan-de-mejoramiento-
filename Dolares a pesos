@@ -1,0 +1,9 @@
+ALGORITMO Dolares_a_Pesos
+Definir dolares, trm, pesos Como Real
+Escribir "Ingrese la cantidad en dólares:"
+Leer dolares
+Escribir "Ingrese la TRM del día:"
+Leer trm
+pesos <- dolares * trm
+Escribir "El valor en pesos es:", pesos
+FIN ALGORITMO
