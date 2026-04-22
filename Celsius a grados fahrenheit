@@ -1,0 +1,7 @@
+ALGORITMO Celsius_a_Fahrenheit
+    Definir celsius, fahrenheit Como Real
+    Escribir "Ingrese los grados Celsius:"
+    Leer celsius
+    fahrenheit <- (celsius * 9/5) + 32
+    Escribir "En Fahrenheit es:", fahrenheit
+FIN ALGORITMO
