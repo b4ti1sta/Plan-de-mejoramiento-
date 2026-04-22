@@ -1,0 +1,9 @@
+ALGORITMO Metros_a_cm_mm
+    Definir metros, centimetros, milimetros Como Real
+    Escribir "Ingrese la medida en metros:"
+    Leer metros
+    centimetros <- metros * 100
+    milimetros <- metros * 1000
+    Escribir "En centímetros:", centimetros
+    Escribir "En milímetros:", milimetros
+FIN ALGORITMO
